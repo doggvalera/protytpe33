@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-/**
- * Created by Laisu on 12.3.2014.
- */
+
 public class Moduls extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,5 +21,6 @@ public class Moduls extends Activity {
                 startActivity(new Intent(Moduls.this, modul1.class));
             }
         });
+
     }
 }

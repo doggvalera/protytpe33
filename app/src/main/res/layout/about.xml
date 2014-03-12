@@ -73,7 +73,8 @@ android:background="@drawable/selector"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/section_label"
         android:layout_alignEnd="@+id/section_label"
-        android:layout_below="@+id/aboutSlogan" />
+        android:layout_below="@+id/aboutSlogan"
+        />
 
 
 </RelativeLayout>
