@@ -20,6 +20,7 @@
         <activity android:name=".about" />
 
         <activity android:name=".Moduls" />
+        <activity android:name=".modul1" />
 
     </application>
 
