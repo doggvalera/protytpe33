@@ -6,9 +6,9 @@ import android.os.Bundle;
 
 public class about extends Activity {
 
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.about);
-
-    }
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.about);
+//
+//    }
 }

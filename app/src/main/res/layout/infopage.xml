@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:id="@+id/videoView"
         android:background="@drawable/selector"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/btnMoreInformation"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <ScrollView
@@ -28,9 +28,9 @@
         android:layout_height="match_parent"
         android:scrollbars="vertical"
         android:enabled="true"
-        android:layout_below="@+id/button2"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3">
+        android:layout_below="@+id/btnStartPlus"
+        android:layout_alignRight="@+id/btnAutheLeading"
+        android:layout_alignEnd="@+id/btnAutheLeading">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="More information"
-        android:id="@+id/button"
+        android:id="@+id/btnMoreInformation"
         android:layout_marginBottom="144dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -54,19 +54,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Share"
-        android:id="@+id/button2"
-        android:layout_alignTop="@+id/button"
-        android:layout_toRightOf="@+id/button" />
+        android:id="@+id/btnStartPlus"
+        android:layout_alignTop="@+id/btnMoreInformation"
+        android:layout_toRightOf="@+id/btnMoreInformation" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Favorite"
-        android:id="@+id/button3"
-        android:layout_alignTop="@+id/button2"
+        android:id="@+id/btnAutheLeading"
+        android:layout_alignTop="@+id/btnStartPlus"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/button2" />
+        android:layout_toRightOf="@+id/btnStartPlus" />
 
 
 

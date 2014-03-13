@@ -13,8 +13,26 @@ public class Moduls extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.modulepage);
 
-        Button module1 = (Button) findViewById(R.id.button2);
+        Button module1 = (Button) findViewById(R.id.btnStartPlus);
         module1.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Moduls.this, modul1.class));
+            }
+        });
+
+        Button module2 = (Button) findViewById(R.id.btnLiveActive);
+        module2.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Moduls.this, modul1.class));
+            }
+        });
+
+        Button module3 = (Button) findViewById(R.id.btnAutheLeading);
+        module3.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
