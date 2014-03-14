@@ -18,7 +18,7 @@ public class Moduls extends Activity {
 
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Moduls.this, modul1.class));
+                startActivity(new Intent(Moduls.this, Informations.class));
             }
         });
 
@@ -27,7 +27,7 @@ public class Moduls extends Activity {
 
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Moduls.this, modul1.class));
+                startActivity(new Intent(Moduls.this, InformationPage.class));
             }
         });
 
@@ -36,7 +36,7 @@ public class Moduls extends Activity {
 
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Moduls.this, modul1.class));
+                startActivity(new Intent(Moduls.this, InformationPage.class));
             }
         });
 
